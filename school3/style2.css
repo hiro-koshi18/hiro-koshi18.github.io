@@ -1,0 +1,516 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+header{ 
+	position: relative;
+	background-color: rgb(229, 39, 115);
+	opacity: 0.9;
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	border: 4px dashed #e6e8ed;
+	z-index: 4;
+	box-sizing: border-box;
+}
+
+.title{
+	font-size: 50px;
+	color: #d9b1f9;
+	text-align: center;
+	font-family: 'Titan One', cursive;
+    font-family: 'Wendy One', sans-serif;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.hart{
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.header-menu{
+	height: 40px;
+	margin-top: 90px;
+	list-style: none;
+    padding-left: 20px;
+    float: left;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-family: 'Titan One', cursive;
+}
+
+.pic-container{
+	height: 143px;
+	width: 366px;
+	border: none;
+	padding: 0 20px;
+	float: right;
+}
+
+.img-icon{
+	width: 50px;
+	height: 50px;
+	margin: 80px 6px 10px;
+	float: right;
+	background-size: cover;
+	background-position: center;
+	border: 2px solid #adb8bc;
+}
+
+.baby{
+	background-image: url(img2/baby5.png);
+	background-color: white;
+	border-radius: 50%;
+}
+
+.line{
+    background-image: url(img2/sms1.png);
+    background-color: white;
+    border-radius: 20%;
+}
+
+.facebook{
+	background-image: url(img2/facebook4.png);
+	background-color: white;
+	border-radius: 50%;
+}
+.instagram{
+	background-image: url(img2/instagram4.png);
+	background-color: white;
+	border-radius: 20%;
+}
+
+.dotted-box{
+	width: 100%;
+	height: 700px;
+	background-image: url(img2/dotto1.jpg);
+	}
+
+.box{
+	position: relative;
+	height: 700px;
+	width:  1000px;
+	border: none;
+	margin: 0 auto;
+}
+
+.img1{
+	height: 300px;
+	width: 300px;
+	float: right;
+	padding: 350px 120px 0 0;
+}
+
+.img2{
+	height: 400px;
+	width: 400px;
+	float: right;
+    padding: 190px 50px 0 100px;
+	transform: rotate(-20deg);
+}
+
+.text-top{
+	position: absolute;
+	top: 246px;
+	left: 246px;
+	font-family: 'Henny Penny', cursive;
+	transform: rotate(-24deg);
+	padding-right: 50px;
+	line-height: 110px;
+	font-size: 60px;
+	color: #666f72;
+}
+
+.mama1{
+	height: 900px;
+	width: 100%;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+}
+
+.hata-line{
+	background-image: url(img2/hata-line.png);
+	height: 30px;
+	background-size: 1100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}  
+
+.humanbox1{
+	position: relative;
+	height: 400px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.human1{
+	background-image: url(img2/human2.png);
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.title2{
+	position: absolute;
+	top: 60px;
+	left: 356px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 50px;
+	color: #1a8c16;
+	font-family: 'Anton', sans-serif;
+}
+
+.human-line{
+	position: absolute;
+	top: 380px;
+	left: 408px;
+	width: 200px;
+	border-top: solid #117c0d;
+}
+
+.main-box{
+	height: 455px;
+	width: 1108px;
+	margin: 0 auto;
+}
+
+.mama2{
+	width: 500px;
+	margin: 10px 10px 20px 20px;
+	padding: 10px;
+	border: 2px solid #5b5959;
+	display: flex;
+	align-items: center;
+	float: left;
+}
+
+.pregnantwoman{
+	background-image: url(img2/family2.png);
+	background-size: 180px;
+	background-position: center;
+	height: 180px;
+	width: 180px;
+}
+
+.q-a{
+	width: 35px;
+	height: 35px;
+}
+
+.inner{
+    border: 2px dashed #919191;
+    padding: 5px;
+    margin: 5px;
+    height: 150px;
+    width: 300px;   
+}
+
+.commento{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 16px;
+	background-color: #e8e5e5;
+	border-radius: 20px;	
+}
+
+.text-box1{
+	height: 41px;
+	width: 300px;
+	margin-top: 15px;
+}
+
+.text-box2{
+	height: 41px;
+	width: 300px;
+	margin-top: 30px;
+}
+
+.family1{
+    background-image: url(img2/family1.png);
+    background-size: 180px;
+	background-position: center;
+	height: 180px;
+	width: 180px;
+}
+
+.family3{
+	background-image: url(img2/family3.png);
+    background-size: 180px;
+	background-position: center;
+	height: 180px;
+	width: 180px;
+}
+
+.eat{
+	background-image: url(img2/eat.png);
+    background-size: 180px;
+	background-position: center;
+	height: 180px;
+	width: 180px;
+}
+
+.stripe1{
+	height: 1100px;
+	width: 100%;
+	margin-top: 20px;
+	background-image: url(img2/stripe1.jpg);
+}
+
+.main-box2{
+	position: relative;
+	height: 500px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.duck-line{
+	background-image: url(img2/duck.png);
+	height: 100px;
+	background-size: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.meeting-img{
+	height: 300px;
+	background-image: url(img2/fukidashi9.png);
+	background-size: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.meeting-title{
+	position: absolute;
+	top: 100px;
+	left: 370px;
+	height: 70px;
+	width: 250px;
+    font-size: 50px;
+    color: #4cbec4;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+.japanese-map{
+	height: 600px;
+	background-image: url(img2/map.png);
+	background-size: 850px;
+	background-color: #f2f4c1;
+	background-position: center;
+	background-repeat: no-repeat; 
+	border: 5px dashed #919191;
+	border-radius: 20px;
+	position: relative;
+}
+
+
+.kiyopi-2{
+	background-image: url(img2/kiyopi-3.png);
+	width: 190px;
+	height: 230px;
+	background-size: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+    transform: rotate(-14deg);
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    left: 90px;
+}
+
+
+.fukidashi-map{
+	background-image: url(img2/fukidashi10.png);
+	height: 260px;
+	width: 250px;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: 3;
+    top: 29px;
+    left: 244px;
+}
+
+.kiyopi-commento{
+	position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 60px;
+	height: 50px;
+	width: 50px;
+	color: #ba49e5;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+	transform: rotate(-11deg);
+    font-family: 'Fredoka One', cursive;
+}
+
+.dotto2{
+	height: 1080px;
+	width: 100%;
+	margin-top: 20px;
+	background-image: url(img2/dotto2.png);
+}
+
+.main-box3{
+	position: relative;
+	height: 1080px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.photo-img{
+	height: 240px;
+	background-image: url(img2/fukidashi9.png);
+	background-size: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.photo-title{
+    position: absolute;
+	top: 75px;
+	left: 370px;
+	height: 70px;
+	width: 250px;
+    font-size: 50px;
+    color: #4cbec4;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Anton', sans-serif;
+}
+
+.photo-group{
+	width: 950px;
+	margin: 20px auto;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.photo-card{
+	float: left;
+	width: 290px;
+	height: 302px;
+	margin: 0 15px 20px 0;
+	border: 2px solid #bcbcbc;
+}
+
+.photo-img2{
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.photo-commento{
+	width: 280px;
+	height: 90px;
+	padding: 5px;
+	background-color: #d0ea93;
+	border-top: 2px solid #bcbcbc;
+}
+
+.photo-card:nth-child(1){
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.photo-card:nth-child(2){
+	margin-top: 10px;
+}
+
+.photo-card:nth-child(3){
+	margin-top: 10px;
+}
+
+.photo-card:nth-child(4){
+	margin-left: 20px;
+}
+
+
+.pic1{
+	background-image: url(img2/kiyopi-5.jpg);
+}
+
+.pic2{
+	background-image: url(img2/kiyopi-4.jpg);
+}
+
+.pic3{
+	background-image: url(img2/kiyoha1.jpg);
+}
+
+.pic4{
+	background-image: url(img2/kiyoha2.jpg);
+}
+.pic5{
+	background-image: url(img2/kiyoha3.jpg);
+}
+
+
+.toppage-button{
+	background-image: url(img2/page-top.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+	width: 120px;
+	float: right;
+}
+
+
+
+
+.footer-box{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(229, 39, 115);
+	opacity: 0.9;
+}
+
+.footer-text{
+	text-align: center;
+	padding-top: 43px;
+	opacity: 0.7;
+}
+
+small{
+	height: 20px;
+	width: 100%;
+	font-size: 15px;
+	color: white;
+	margin: 0 auto;
+}
+
+
+
